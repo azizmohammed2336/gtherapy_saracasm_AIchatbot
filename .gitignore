@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+*.env
+
+# Hugging Face / auth
+hf_token.txt
+.huggingface/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local model weights / cloned model repos
+llama-3-8B-chat-psychotherapist/
+src/llama-3-8B-chat-psychotherapist/
