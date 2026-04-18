@@ -17,5 +17,5 @@ venv/
 .DS_Store
 
 # Local model weights / cloned model repos
-llama-3-8B-chat-psychotherapist/
-src/llama-3-8B-chat-psychotherapist/
+qwenModel/
+
