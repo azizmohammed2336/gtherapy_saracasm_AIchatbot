@@ -12,7 +12,7 @@ AI therapy chatbot project for COMP741 (Practical AI), focused on empathetic con
 - Primary Language: Python
 - Core Frameworks/Libraries: PyTorch, Hugging Face Transformers, scikit-learn, Pandas
 - Development Platform: Google Colab
-- Compute: Cloud GPU via Google Colab
+- Compute: Cloud GPU/T4 via Google Colab
 - Project Type: NLP + Transformer fine-tuning + Text classification
 
 ## Project Overview
@@ -38,4 +38,3 @@ The system is an AI-powered mental health support assistant that analyzes user i
 2. **Data Privacy and Algorithmic Bias**: No personally identifiable information (PII) will be stored during testing. Datasets will be reviewed for harmful or biased patterns.
 3. **Transparency**: Users will be clearly informed they are interacting with an AI support assistant, not a human therapist.
 4. **Explanation**: Documentation will explain how the model works, which datasets are used, and the system’s limitations.
-
