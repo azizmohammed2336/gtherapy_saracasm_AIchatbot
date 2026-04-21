@@ -1,4 +1,4 @@
-Sprint April 14, 2026 - Update
+## Sprint April 14, 2026 - Update
 
 What project work have you achieved since last class last week?
 
