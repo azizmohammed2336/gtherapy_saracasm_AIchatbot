@@ -115,8 +115,8 @@ Here's a full summary of everything we've covered:
 Week 3 ✅ — Sarcasm classifier trained and saved to Drive
 Week 4 ✅ — Qwen fine-tuned with LoRA, adapter saved
 Week 5 ✅ — About to build integration pipeline + Gradio UI
-Week 6 ⏳ — Gradio UI (already scaffolded in every_session notebook)
-Week 7 ⏳ — Testing and evaluation
+Week 6 ✅ — Gradio UI (already scaffolded in every_session notebook)
+Week 7 ✅ — Testing and evaluation
 Week 8 ✅ — Documentation and presentation
 ```
 

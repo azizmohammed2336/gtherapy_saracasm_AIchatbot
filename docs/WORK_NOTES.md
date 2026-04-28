@@ -1,5 +1,13 @@
 **April 21-28**:
 
+This week, I have worked on the Final pipline building. This allowed for both the classifier and the model to be integrated effectively.
+For this, I used Colab as the platform for the code. Moreover, I deployed the code using Gradio. This allowed for more focus on the
+integration and logic rather than the user-experince. However, that is something I will be looking to do in the future, which
+would to increase and better design the user-interface. 
+
+One thing I noticed is that the user-interface could be more intuitive and provide better feedback to the user. Morever, the
+model only works when I am running and connected to Colab, this is hindering the deployed of this system since I would want other users
+to be able to use it whenever.
 
 **April 14-21**:
 
