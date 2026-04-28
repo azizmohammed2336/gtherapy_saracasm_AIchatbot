@@ -1,4 +1,4 @@
-## Empath-ai
+## Empath-AI
 
 # Authorship
 
