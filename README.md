@@ -12,7 +12,7 @@ This project implements an AI emotional-support chatbot composed of two models i
 
 # Folder and file structure
 
-```mermaid
+```
 ├── ai_assistance.md
 ├── docs
 │   ├── classifierEvaulation.md
@@ -45,7 +45,7 @@ This project implements an AI emotional-support chatbot composed of two models i
     ├── LoRAtraining.ipynb
     ├── SarcasmClassifyer.ipynb
     └── SetUp.ipynb
-```mermaid
+```
 
 # Installation (prerequisites and setup)
 
