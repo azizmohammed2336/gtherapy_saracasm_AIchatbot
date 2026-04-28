@@ -1,4 +1,4 @@
-In this section, I will note how I used Claude to for assitance and debuggin my project.
+## In this section, I will note how I used Claude to for assitance and debuggin my project
 
 Here's a full summary of everything we've covered:
 
@@ -109,6 +109,25 @@ Here's a full summary of everything we've covered:
 
 ---
 
+## April 21 to 28 — Pipeline Integration & Gradio UI
+
+**What you asked:** How to connect the sarcasm classifier with the LoRA fine-tuned response model and display it in a Gradio interface.
+
+**What we did:**
+
+- Built a pipeline where user input is first sent to the sarcasm classifier
+- Used the classifier output to adjust the prompt sent to Qwen
+- Generated more supportive and empathetic responses for sarcastic input
+- Created a basic Gradio chat interface for live testing
+- Organized the project files and documentation for easier submission
+
+**What we debugged:**
+
+- Difficulty connecting the two models into one working pipeline
+- Uncertainty about whether sarcasm detection was improving response quality
+
+---
+
 ## Where You Are Now
 
 ```
@@ -119,13 +138,3 @@ Week 6 ✅ — Gradio UI (already scaffolded in every_session notebook)
 Week 7 ✅ — Testing and evaluation
 Week 8 ✅ — Documentation and presentation
 ```
-
----
-
-## Key Decisions Made
-
-- **3B not 7B** — fits comfortably on free Colab T4
-- **Colab only** — dropped local Mac setup due to RAM limitations
-- **LoRA not full fine-tuning** — 0.12% parameters, ~100MB adapter vs 6GB full model
-- **DistilBERT not Qwen for classification** — right tool for the job
-- **50k balanced not 500k or 1M** — faster training, same quality result
